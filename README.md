@@ -1,4 +1,4 @@
-# Laravel 6 望遠鏡
+# Laravel 7 望遠鏡
 
 引入 laravel 的 telescope 套件來擴增實作開發調試工具，可以觀察資料庫、也可以觀察任務工作等。
 
@@ -12,7 +12,7 @@ $ git clone
 ```sh
 $ composer install
 ```
-- 產⽣ Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
+- 產生 Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
 ```sh
 $ php artisan key:generate
 ```

@@ -26,8 +26,8 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/sZdXuyj.png)
+![](https://i.imgur.com/4fzwlSX.png)
 > 每一個請求都會轉成 Illuminate\Http\Request 類別物件
 
-![](https://i.imgur.com/xTE9tIq.png)
+![](https://i.imgur.com/wU6h5OI.png)
 > 對資料庫進行查詢、新增、修改、刪除資料等動作執行語法查詢

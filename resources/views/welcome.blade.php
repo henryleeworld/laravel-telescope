@@ -117,7 +117,7 @@
                             </svg>
 
                             <a href="https://github.com/sponsors/taylorotwell" class="ml-1 underline">
-                                {{ trans('frontend.welcome.content.sponsor') }}
+                                {{ $user->name }} {{ trans('frontend.welcome.content.sponsor') }}
                             </a>
                         </div>
                     </div>

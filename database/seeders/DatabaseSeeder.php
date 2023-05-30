@@ -13,10 +13,5 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // For "heavy" seeding
-        Telescope::stopRecording();
-        $this->call([
-            UsersTableSeeder::class,
-        ]);
     }
 }

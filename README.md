@@ -1,4 +1,4 @@
-# Laravel 10 望遠鏡
+# Laravel 11 望遠鏡
 
 引入 laravel 的 telescope 套件來擴增實作開發調試工具，可以觀察資料庫、也可以觀察任務工作等。
 
@@ -16,18 +16,18 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
-- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移，並執行資料庫填充（如果要測試的話）。
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
 ```sh
-$ php artisan migrate --seed
+$ php artisan migrate
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
-- 你可以經由 `/user/1` 來進行使用者配置瀏覽；只能在本地環境經由 `/telescope` 來進行開發調試儀表板瀏覽。
+- 你可以經由 `/` 來瀏覽歡迎頁面；只能在本地環境經由 `/telescope` 來進行開發調試儀表板瀏覽。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/h7ztWha.png)
+![](https://i.imgur.com/BKsnh9p.png)
 > 每一個請求都會轉成 Illuminate\Http\Request 類別物件
 
-![](https://i.imgur.com/icDzl1k.png)
+![](https://i.imgur.com/KrzcfwQ.png)
 > 對資料庫進行查詢、新增、修改、刪除資料等動作執行語法查詢

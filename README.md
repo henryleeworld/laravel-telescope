@@ -1,4 +1,4 @@
-# Laravel 12 望遠鏡
+# Laravel 13 望遠鏡
 
 引入 laravel 的 telescope 套件來擴增實作開發調試工具，可以觀察資料庫、也可以觀察任務工作等。
 
@@ -26,8 +26,8 @@ $ php artisan migrate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/Xu4rVSZ.png)
+![](https://i.imgur.com/P6dGXL9.png)
 > 每一個請求都會轉成 Illuminate\Http\Request 類別物件
 
-![](https://i.imgur.com/zDtjClP.png)
+![](https://i.imgur.com/mWwkCKR.png)
 > 對資料庫進行查詢、新增、修改、刪除資料等動作執行語法查詢
